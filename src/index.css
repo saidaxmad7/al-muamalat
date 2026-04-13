@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+:root {
+    --font-family: "Open Sans", sans-serif;
+    --second-family: "Helvetica Neue", sans-serif;
+    --third-family: "Inter", sans-serif;
+    --font3: "Public Sans", sans-serif;
+    --font4: "Roboto", sans-serif;
+    --font5: "Poppins", sans-serif;
+    --font6: "Helvetica", sans-serif;
+    --font7: "Impact", sans-serif;
+    --font8: "Plus Jakarta Sans", sans-serif;
+    --font9: "Raleway", sans-serif;
+    --font10: "Nunito Sans", sans-serif;
+}
+
+html,
+body,
+#root {
+    font-family: var(--font-family);
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    height: 100%;
+}
+
+.container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.banner-title {
+    font-family: var(--third-family);
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 0.02em;
+    color: #252641;
+    border-radius: 10px;
+    padding: 10px 25px;
+    background: #fff;
+    display: inline-block;
+}
+
+.custom-pagination .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    background: #d1d5db;
+    opacity: 1;
+    border-radius: 9999px;
+    transition: all 0.3s ease;
+}
+
+.custom-pagination .swiper-pagination-bullet-active {
+    width: 10px;
+    height: 10px;
+    background: #009688;
+}

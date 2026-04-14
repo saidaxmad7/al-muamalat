@@ -1,3 +1,4 @@
+import Consulting from "../components/educational-programs/Consulting";
 import Courses from "../components/educational-programs/Courses";
 import Hero from "../components/educational-programs/Hero";
 import Info from "../components/educational-programs/Info";
@@ -13,6 +14,7 @@ function EducationalProg() {
                 <Courses />
                 <Payment />
                 <Services />
+                <Consulting />
             </>
         </section>
     );

@@ -14,15 +14,16 @@ function Courses() {
     return (
         <section className='pt-11 pb-20'>
             <div className='container'>
-                <h1 className='font-[var(--second-family)] font-bold text-[28px] md:text-[40px] text-center text-black'>
-                    Most Popular Course
-                </h1>
-
-                <p className='font-[var(--second-family)] font-medium text-[14px] md:text-[20px] text-center text-[#686868] mt-2 max-w-3xl mx-auto leading-relaxed'>
-                    Expert guidance for managing funds in alignment with Islamic
-                    principles, helping you make informed, halal investment
-                    decisions.
-                </p>
+                <div className='flex flex-col items-center'>
+                    <h1 className='font-[var(--second-family)] font-bold text-[32px] md:text-[40px] text-center text-black'>
+                        Most Popular Course
+                    </h1>
+                    <p className='font-[var(--second-family)] font-medium text-[16px] md:text-[20px]  text-[#686868] max-w-143.5 text-center'>
+                        Expert guidance for managing funds in alignment with
+                        Islamic principles, helping you make informed, halal
+                        investment decisions.
+                    </p>
+                </div>
 
                 <div className='mt-12 relative'>
                     <button className='prev-btn hidden md:flex absolute -left-16 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full bg-[#009688] items-center justify-center text-white'>

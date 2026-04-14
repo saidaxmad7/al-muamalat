@@ -54,17 +54,16 @@ function Services() {
     return (
         <section className='py-10 md:py-17'>
             <div className='container'>
-                <h1 className='font-[var(--second-family)] font-bold text-[32px] md:text-[40px] text-center text-black'>
-                    Our Services
-                </h1>
-                <p className='font-[var(--second-family)] font-medium text-[16px] md:text-[20px] text-center text-[#686868] mt-2 max-w-[800px] mx-auto leading-relaxed'>
-                    Expert guidance for managing funds in alignment with Islamic
-                    <br className='hidden md:block' />
-                    principles, helping you make informed, halal investment
-                    <br className='hidden md:block' />
-                    decisions.
-                </p>
-
+                <div className='flex flex-col items-center'>
+                    <h1 className='font-[var(--second-family)] font-bold text-[32px] md:text-[40px] text-center text-black'>
+                        Our services
+                    </h1>
+                    <p className='font-[var(--second-family)] font-medium text-[16px] md:text-[20px]  text-[#686868] max-w-143.5 text-center'>
+                        Expert guidance for managing funds in alignment with
+                        Islamic principles, helping you make informed, halal
+                        investment decisions.
+                    </p>
+                </div>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10 md:mt-16'>
                     {servicesData.map((item, index) => (
                         <div

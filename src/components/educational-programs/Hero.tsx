@@ -4,14 +4,16 @@ function Hero() {
     return (
         <section className='py-10 md:py-16'>
             <div className='container mx-auto px-4'>
-                <h1 className='font-[var(--second-family)] font-bold text-[32px] md:text-[40px] text-center text-black'>
-                    International educational programs
-                </h1>
-                <p className='font-[var(--second-family)] font-medium text-[16px] md:text-[20px] text-center text-[#686868] mt-2 max-w-3xl mx-auto leading-relaxed'>
-                    Al Muamalat Education's international study programs offer
-                    an in-depth learning experience at leading Islamic financial
-                    institutions around the world.
-                </p>
+                <div className='flex flex-col items-center'>
+                    <h1 className='font-[var(--second-family)] font-bold text-[32px] md:text-[40px] text-center text-black'>
+                        International educational programs
+                    </h1>
+                    <p className='font-[var(--second-family)] font-medium text-[16px] md:text-[20px]  text-[#686868] max-w-143.5 text-center'>
+                        Al Muamalat Education's international study programs
+                        offer an in-depth learning experience at leading Islamic
+                        financial institutions around the world.
+                    </p>
+                </div>
 
                 <div className='mt-12 grid md:grid-cols-2 gap-6'>
                     <div className='bg-[#f3f8ff] rounded-xl p-6 md:p-8'>

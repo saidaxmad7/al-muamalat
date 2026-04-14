@@ -16,7 +16,7 @@ function Header() {
 
     return (
         <header className='sticky top-0 z-999 bg-white py-5 shadow-md'>
-            <div className='container mx-auto px-4'>
+            <div className='container'>
                 <div className='flex justify-between items-center'>
                     <div>
                         <img src='/main-logo.png' alt='logo' className='h-10' />

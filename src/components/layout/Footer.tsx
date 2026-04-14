@@ -3,7 +3,7 @@ import { FaYoutube, FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 function Footer() {
     return (
         <footer className='bg-[#009688] text-white py-10 px-4'>
-            <div className='container mx-auto flex flex-col items-center'>
+            <div className='container flex flex-col items-center'>
                 <div className='mb-6'>
                     <div className='flex items-center gap-3'>
                         <img src="/footer-logo.png" alt="dior studio logo" />

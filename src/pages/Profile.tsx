@@ -6,7 +6,7 @@ function Profile() {
 
     return (
         <section className='py-10 md:py-20 bg-gray-50 min-h-screen'>
-            <div className='container mx-auto px-4 max-w-7xl'>
+            <div className='container'>
                 <div className='flex flex-wrap gap-4 mb-8 justify-center md:justify-start'>
                     <button
                         onClick={() => setActive("profile")}

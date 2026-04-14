@@ -3,7 +3,7 @@ import CheckIcon from "../../assets/icons/CheckIcon";
 function Hero() {
     return (
         <section className='py-10 md:py-16'>
-            <div className='container mx-auto px-4'>
+            <div className='container'>
                 <div className='flex flex-col items-center'>
                     <h1 className='font-[var(--second-family)] font-bold text-[32px] md:text-[40px] text-center text-black'>
                         International educational programs
